@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>FORMULARIO 2 - YORDY</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+          
+        </header>
+        <main>
+            <section>
+                
+                <div class="box">
+                    
+                    <!-- form: sirve como envoltura para los elementos input-->
+                    <form class="formulario">
+                        <h2>REGISTRARSE</h2>
+                        <div class="registro">
+                            <label for="nombres">Nombres:</label><br>
+                            <input 
+                                type="text" 
+                                placeholder="Ingresar Nombre Completo" 
+                                id="nombres"
+                                required
+                                minlength="6"
+                            >
+                        </div>
+                        <br>
+                        <div class="registro">
+                            <label for="apellidos">Apellidos: </label><br>
+                            <!-- regex, patrones regulares -->
+                            <input 
+                                type="text" 
+                                placeholder="Ingresar Apellidos Completos" 
+                                id="nombres"
+                                required
+                                minlength="6"
+                            >
+                        </div>
+                        <br>
+                        <div class="registro">
+                            <label for="edad">
+                                Edad:
+                            </label>
+                            <input 
+                                type="number"
+                                placeholder="Ingresar Edad"
+                                id="edad"
+                                max="120">
+                        </div>
+                        <br>
+
+                        <!--  -->
+                        <div class="registro">
+                            <label>Género</label>
+                         
+                            <div class="genero">
+                            <p><input type="radio" name="genero" value="M" id="masculino">
+                                Masculino</p>
+                         
+                            <p><input
+                                type="radio"
+                                name="genero"
+                                value="F"
+                            >Femenino</p>
+                            <p><input
+                                type="radio"
+                                name="genero"
+                                value="ND"
+                            >Otro</p>
+                            <!--  --></div>
+                        </div>
+
+                        <div class="registro">
+                            <label>Plan</label>
+                            <br>
+                            <select>
+                                <option
+                                    selected
+                                    disabled
+                                >
+                                    Seleccionar Plan
+                                </option>
+                                <option value="AM">
+                                    Plan 1
+                                </option>
+                                <option value="AR">
+                                    Plan 2
+                                </option>
+                                <option value="AP">
+                                    Plan 3
+                                </option>
+                            
+                            </select>
+                        </div> <br>
+
+                        <div class="registro">
+                            <label for="mensaje">
+                                Comentarios:
+                            </label><br>
+                            <textarea   name="mensaje" rows="3" cols="30" minlength="6"></textarea><br/>
+                            <br>
+                        </div>
+                        <br>
+                        <!--  -->
+                      
+                        <div class="registro">
+                           <br>
+                            <input 
+                                type="checkbox"
+                                value="musica"
+                            >Acepto Terminos y Condiciones
+                        </div>
+
+                        <!--  -->
+                   
+                        
+                        <!-- la acción de ejecutar una petición se llama submit, valida y envia datos -->
+                        <input type="submit"
+                        value="Enviar">
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

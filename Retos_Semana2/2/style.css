@@ -1,0 +1,64 @@
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-color: #3225ee; 
+  }
+
+  section .box{
+      margin:100px;
+      display: flex;
+      justify-content: center;
+  }
+
+  h2{
+	position: relative;
+	padding: 5px 100px 10px;
+	margin-bottom: 20px;
+    color:rgb(23, 27, 243);
+  } 
+  section .formulario{
+      background-color: rgb(245, 229, 8);
+      padding: 50px;
+      box-shadow: 0px 0px 20px 7px rgba(243, 239, 10, 0.979);
+  }
+
+  button, input, select, textarea {
+    font-family : inherit;
+    font-size   : 100%;
+  }
+ 
+  form label{
+	width:185px;
+	font-weight:bold;
+	
+}
+
+form input[type="text"], select, textarea{
+	width:100%;
+	padding:3px 10px;
+	border:2px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:6px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+form input[type="submit"]:hover{
+	cursor:pointer;
+    background-color:rgb(13, 68, 219);
+}
+.genero{
+    display: flex;
+}
+.registro{
+    display: block;
+}

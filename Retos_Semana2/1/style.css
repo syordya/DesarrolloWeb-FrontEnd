@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+section{
+    width:80%;
+    margin:auto;
+    font-family:Verdana;
+}
+
+h3{
+    text-align:center;
+    color: rgb(107, 107, 107);
+}
+
+form{
+    text-align:center;
+    font-family:Tahoma;
+    margin:10px;
+}
+
+label{
+    color: rgb(107, 107, 107);
+    font-weight:bold;
+}
+
+input[type="email"], input[type="password"]{
+    width:28%;
+    height:70px;
+    margin-bottom: 10px;
+    padding-left:30px;
+    font-size:15px;
+    border-radius:5px;
+    border:2px solid rgb(219, 219, 219);
+    color: rgb(241, 240, 240);
+}
+
+input[type="submit"]{
+    background:green;
+    width:10%;
+    height:50px;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    border-radius:5px;
+    border:0px;
+}
