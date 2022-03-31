@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecera-contenedor{
+    background-color: #000;
+    width: 100%;
+}
+.contenedor{
+    max-width: 65%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cabecera > * {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.icono{
+    padding: 0 !important;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.boton{
+    border: 0;
+    padding: 10px 25px;
+    color: white;
+    background-color: gray;
+}
+
+.boton:hover{
+    background-color: lightgrey;
+    font-weight: bold;
+    cursor: pointer;
+}
+.principal-contenedor{
+
+    width: 100%;
+}
+.tarjeta{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.grupo2{
+    font-family: Arial;
+    text-align: center;
+    width: 32%;
+    box-shadow: 5px 5px 10px #646467;
+    line-height:35px;
+}
